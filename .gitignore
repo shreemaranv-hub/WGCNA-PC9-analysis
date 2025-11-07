@@ -1,0 +1,16 @@
+# R / RStudio
+.Rhistory         
+.RData            
+.Rproj.user       
+.Ruserdata        
+
+# Raw or large files
+raw_data/         
+*.tar             
+*.tar.gz          
+*.cel             
+*.RData           
+*.rds             
+
+# Editor folders
+.vscode/          
