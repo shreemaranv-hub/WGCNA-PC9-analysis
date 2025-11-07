@@ -21,6 +21,13 @@ The project includes:
 3. Open `wgcna_pipeline.R` in RStudio.
 4. Run the script line by line.
 
+# Results
+The results of the WGCNA analysis are stored in the `results/` folder:
+- `moduleTraitHeatmap.png` — correlation between gene modules and traits
+- `geneInfo.csv` — list of genes with module assignments and significance
+- `dendro_colors.png` — hierarchical clustering and module colors
+- `softThreshold_plot.png` — power selection diagnostics
+
 # Requirements
 - R version ≥ 4.2
 - Packages: `WGCNA`, `readxl`, `tidyverse`
